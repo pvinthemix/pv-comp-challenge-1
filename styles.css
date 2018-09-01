@@ -1,0 +1,46 @@
+.boxes-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+
+}
+
+.profile {
+  background-color: #FD9D27;
+}
+
+.experience {
+  background-color: #278CC2;
+}
+
+.education {
+  background-color: #EF5B4E;
+}
+
+.blog {
+  background-color: #3DBB7C;
+}
+
+.social {
+  background-color: #F66932;
+}
+
+.contact {
+  background-color: #278CC2;
+}
+
+.portfolio {
+  background-color: #F66932;
+}
+
+.photo-carousel {
+    width: 200px;
+    height: 120px;
+}
+
+.photo-carousel img {
+    width: 100%;
+    height: auto;
+}
+}
+
