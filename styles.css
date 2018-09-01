@@ -1,8 +1,24 @@
-.boxes-container {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px 100px;
 
+
+.box-container { 
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  height: 100vh;
+  width: 100vh;
+
+
+}
+.box {
+  height: 500px;
+  width: 200px;
+  
+}
+
+.header {
+  height: 200px;
+  width: 200px;
+  
 }
 
 .profile {
@@ -27,15 +43,16 @@
 
 .contact {
   background-color: #278CC2;
+
 }
 
 .portfolio {
   background-color: #F66932;
+
 }
 
 .photo-carousel {
-    width: 200px;
-    height: 120px;
+
 }
 
 .photo-carousel img {
@@ -43,4 +60,3 @@
     height: auto;
 }
 }
-
