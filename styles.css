@@ -1,30 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 
 .box-container { 
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: repeat (3, 1fr);
   height: 100vh;
   width: 100vh;
 }
+
 .box {
-  height: 500px;
-  width: 200px;
-  
+  height: 100%;
+  width: 100%;
 }
 
-.header {
-  height: 200px;
-  width: 200px;
-  
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #3DBB7C;
+  text-align: center;
+  color: white;
+  overflow-wrap: break-word;
 }
 
 .profile {
   background-color: #FD9D27;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .experience {
   background-color: #278CC2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .education {
@@ -33,28 +45,41 @@
 
 .blog {
   background-color: #3DBB7C;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .social {
   background-color: #F66932;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .contact {
   background-color: #278CC2;
+  grid-column-start: 2;
+  grid-column-end: 3;
 
 }
 
 .portfolio {
   background-color: #F66932;
+  grid-column-start: 3;
+  grid-column-end: 4;
 
 }
 
 .photo-carousel {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+
 
 }
 
 .photo-carousel img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 }
