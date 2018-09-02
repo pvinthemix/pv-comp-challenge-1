@@ -36,7 +36,6 @@
 
 
 h1 {
-  margin-right: 5%;
   font-size: 2rem;
 }
 
@@ -99,7 +98,6 @@ h1 {
   background-position: center;
   display: flex;
   flex-direction: column;
-  fle
 }
 
 .icons {
@@ -108,8 +106,22 @@ h1 {
   margin-bottom: 1px;
 }
 
-.image-text {
+.carousel-image-circles {
+  height: 1em;
+  width: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel-image-buttons {
+  height: 1em;
+  width: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+
+
 
 }
