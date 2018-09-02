@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 .box-container { 
   display: grid;
   font-family: 'Open Sans', sans-serif;
@@ -25,7 +24,6 @@
   
 }
 
-
 .contact-button, .resume-button {
   border: 2px black solid;
   padding: 4%;
@@ -34,12 +32,9 @@
   margin-right: 10px;
 }
 
-
 h1 {
   font-size: 2rem;
 }
-
-
 
 .box1 {
   background-color: #607d8b;
