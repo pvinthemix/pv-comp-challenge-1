@@ -8,14 +8,13 @@
 .box-container { 
   display: grid;
   font-family: 'Open Sans', sans-serif;
-  grid-template-columns: repeat (5, 1fr);
-  grid-template-rows: (3, 1fr);
-
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   height: 100vh;
   grid-template-areas:
-    "info info profile photo-carousel photo-carousel"
-    "experience education blog photo-carousel photo-carousel"
-    "social contact portfolio photo-carousel photo-carousel"
+    "box1 box1 box2 box9 box9"
+    "box3 box4 box5 box9 box9"
+    "box6 box7 box8 box9 box9"
 }
 
 .box {
@@ -26,66 +25,91 @@
   
 }
 
-.info {
-  background-color: #3DBB7C;
-  grid-area: info;
-  text-align: center;
+
+.contact-button, .resume-button {
+  border: 2px black solid;
+  padding: 4%;
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-right: 10px;
+}
+
+
+h1 {
+  margin-right: 5%;
+  font-size: 2rem;
+}
+
+
+
+.box1 {
+  background-color: #607d8b;
+  grid-area: box1;
   color: white;
- /* display: flex;
-  align-items: center;*/
-  }
-
-.profile {
-  background-color: #FD9D27;
-  grid-area: profile;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
   
 }
 
-.experience {
-  background-color: #278CC2;
-  grid-area: experience;
+.box2 {
+  background-color: #263238;
+  grid-area: box2;
   
 }
 
-.education {
-  background-color: #EF5B4E;
-  grid-area: education;
+.box3 {
+  background-color: #b0bec5;
+  grid-area: box3;
+  
 }
 
-.blog {
-  background-color: #3DBB7C;
-  grid-area: blog;
+.box4 {
+  background-color: #cfd8dc;
+  grid-area: box4;
 }
 
-.social {
-  background-color: #F66932;
-  grid-area: social;
+.box5 {
+  background-color: #607d8b;
+  grid-area: box5;
 }
 
-.contact {
-  background-color: #278CC2;
-  grid-area: contact;
+.box6 {
+  background-color: #263238;
+  grid-area: box6;
+}
+
+.box7 {
+  background-color: #b0bec5;
+  grid-area: box7;
 
 }
 
-.portfolio {
-  background-color: #F66932;
-  grid-area: portfolio;
+.box8 {
+  background-color: #cfd8dc;
+  grid-area: box8;
 
 }
 
-.photo-carousel {
-  background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw1s37npvdAhXqyoMKHX3dCFwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.teamworkonline.com%2Fbasketball-jobs%2Forlandomagic%2Forlando-magic-28482%2Fcommunications-community-relations%2Fpart-time-social-responsibility-assistant-1943547&psig=AOvVaw3o67HqpaVb49mcOdCQ2Xqn&ust=1535940653884109");
-  grid-area: photo-carousel;
+.box9 {
+  background-image: url("images/DSC_0285.jpg");
+  grid-area: box9;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  fle
 }
 
 .icons {
   height: 3em;
   width: 3em;
-  display:block;
-  margin:auto;
+  margin-bottom: 1px;
+}
+
+.image-text {
+
 }
 
 }
