@@ -24,6 +24,11 @@
   
 }
 
+.box:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
 .contact-button, .resume-button {
   border: 2px black solid;
   padding: 4%;
