@@ -114,12 +114,18 @@ h1 {
 }
 
 .carousel-image-buttons {
-  height: 1em;
-  width: 1em;
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 
+}
+
+.arrow {
+  height: 3em;
+  width: 3em;
+  align-self: center;
+  margin: 1rem;
 }
 
 
