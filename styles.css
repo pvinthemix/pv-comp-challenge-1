@@ -31,14 +31,23 @@
 
 .contact-button, .resume-button {
   border: 2px black solid;
-  padding: 4%;
+  padding: 1%;
   font-size: 1rem;
-  margin-top: 5%;
-  margin-right: 10px;
+  margin-top: 3%;
+  margin-right: 3%;
+  width: 10em;
+  height: 3em;
 }
 
 h1 {
   font-size: 2rem;
+  padding-bottom: 5%;
+  
+}
+
+.box p {
+  margin-top: 3%;
+  margin-right: 3%;
 }
 
 .box1 {
@@ -46,9 +55,11 @@ h1 {
   grid-area: box1;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 1rem;
+  padding-top: 18%;
+  padding-right: 20%;
+  padding-left: 5%;
   
 }
 
@@ -95,9 +106,8 @@ h1 {
   background-image: url("images/DSC_0285.jpg");
   grid-area: box9;
   background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
+/*  background-position: center;
+*/  display: flex;
 }
 
 .icons {
@@ -107,10 +117,10 @@ h1 {
 }
 
 .carousel-image-circles {
-  height: 1em;
-  width: 1em;
   display: flex;
   justify-content: flex-end;
+  margin-left: 75%;
+  font-size: 30px;
 }
 
 .carousel-image-buttons {
