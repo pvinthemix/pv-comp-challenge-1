@@ -29,7 +29,8 @@
   filter: brightness(120%);
 }
 
-.contact-button, .resume-button {
+.contact-button, 
+.resume-button {
   border: 2px black solid;
   padding: 1%;
   font-size: 1rem;
@@ -37,7 +38,16 @@
   margin-right: 3%;
   width: 10em;
   height: 3em;
+  margin-bottom: 8%;
 }
+
+.contact-button:hover{
+  color: red;
+}
+
+.resume-button:hover{
+  color: red;
+}  
 
 h1 {
   font-size: 2rem;
@@ -106,8 +116,7 @@ h1 {
   background-image: url("images/DSC_0285.jpg");
   grid-area: box9;
   background-size: cover;
-/*  background-position: center;
-*/  display: flex;
+  display: flex;
 }
 
 .icons {
@@ -131,13 +140,86 @@ h1 {
 
 }
 
+.carousel-image-buttons:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
+
 .arrow {
   height: 3em;
   width: 3em;
   align-self: center;
-  margin: 1rem;
+  margin: 8%;
+  margin-right: 3%
+  margin-left: 3%;
+}
+
+@media screen and (max-device-width: 768px) {
+
+  .box-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+    "box1 box1" 
+    "box9 box9"
+    "box9 box9"
+    "box9 box9"
+    "box2 box2"
+    "box3 box3" 
+    "box4 box4"
+    "box5 box5"
+    "box6 box6"
+    "box7 box7"
+    "box8 box8" 
+}
+
+  .box {
+    height: 50vh;
+}
+
+  .box9 {
+    background-position: center;
+  }
+
+
+
+
+@media screen and (max-width: 568px) {
+
+  .box-container {
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+    "box1 box1" 
+    "box9 box9"
+    "box9 box9"
+    "box9 box9"
+    "box2 box2"
+    "box3 box3" 
+    "box4 box4"
+    "box5 box5"
+    "box6 box6"
+    "box7 box7"
+    "box8 box8" 
+  }
+
+  .box {
+    height: 50vh;
+}
+
+  .box9 {
+    background-position: center;
+  }
+
 }
 
 
 
-}
+
+
+
+
