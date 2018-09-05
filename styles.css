@@ -6,6 +6,7 @@
 
 .box-container { 
   display: grid;
+  grid-auto-rows: 33vh;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -67,8 +68,8 @@ h1 {
   display: flex;
   justify-content: center;
   font-size: 1rem;
-  padding-top: 18%;
-  padding-right: 20%;
+  padding-top: 5%;
+  padding-right: 0%;
   padding-left: 5%;
   
 }
